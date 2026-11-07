@@ -1,0 +1,14 @@
+# Pricing Page Monitor
+
+> Extract competitor price points from pricing pages and detect when they change.
+
+- Actor: data_foundry/pricing-page-monitor
+- URL: https://apify.com/data_foundry/pricing-page-monitor
+- Publisher: Data Foundry (https://apify.com/data_foundry)
+- Category: Monitoring
+- Pricing: $2.00 per 1,000 URLs scanned; pay per event, no subscription, failures not billed
+- Input: pricing page URLs
+- Output: price sets, new and removed prices, a change signal
+- Run: apify call data_foundry/pricing-page-monitor
+- API: POST https://api.apify.com/v2/acts/data_foundry~pricing-page-monitor/runs
+- More actors: https://apify.com/data_foundry
